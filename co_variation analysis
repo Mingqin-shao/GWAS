@@ -1,0 +1,93 @@
+Multivariate analysis of maize disease resistances suggests a pleiotropic genetic basis and
+implicates a GST gene
+structured association mapping 
+analysis of correlated complex traits 
+identification of pleiotropic genes.
+The multivariate analytical approach 
+traits exhibiting correlation
+high positive genetic correlations between resistances to three diseases.
+pleiotropic effects:  
+    clusters of quantitative trait loci for different diseases
+    one gene repons to different diseases
+253 maize inbred lines with global variation
+southern leaf blight
+northern leaf blight
+gray leaf spot 
+The pathogens are 
+    in the same taxonomic class and 
+    share some aspects of pathogenesis 
+they do so for different periods of time before causing host cell death: 
+2 to 3 d for Ch, 
+approximately 3 wk for Czm/Cz, 
+and approximately 2 wk for St
+all three fungi derive their nutrition from dead host cells and reproduce on the surface of dead tissue
+Aspects of pathogenesis that are unique to each disease could require distinct host
+mechanisms, pathways, and genes that confer single disease resistance.
+In contrast, MDR may be mediated by host mechanisms that respond to shared aspects of pathogenesis.
+
+
+The proportions of genotypic variance
+estimated to be due to additive variance for SLB, GLS, and
+NLB were 95%, 100%, and 97%, respectively. This suggested
+that additive epistatic variance was a relatively insignificant component
+of the genotypic variance.
+
+The accuracy of K-based
+partitioning of genotypic variance has not been fully investigated;
+therefore, our inference should be taken with some caution.
+
+High positive (>0.5) genetic correlations were
+detected between all pairwise trait combinations (Fig. 1 and
+Table 1). The genetic correlation coefficient between resistance
+to GLS and NLB (r = 0.67) was highest and ∼0.10 greater than
+that between either of those disease resistances and SLB (r =
+0.55 and r = 0.58, respectively).
+
+
+Each of the traits had high heritabilities (h2 ± SE for SLB was
+0.95 ± 0.01, h2 ± SE for GLS was 0.91 ± 0.01, and h2 ± SE for
+NLB was 0.87 ± 0.01), indicating that the majority of variation
+among inbred lines was attributable to genetic variation, providing
+good power to detect causal genes.
+
+Surprisingly,
+3 SNP tests withstood multiple test correction at a false
+discovery rate of 5.0%. These SNPs were present in the following
+three genes:
+
+This was found in a public genetic resource with [[low LD]]
+in which genome-wide inference on the pleiotropic effects of individual
+genes may be made.
+
+Resistance to SLB was evaluated in five environments
+Resistance to GLS was evaluated in three environments
+Resistance to NLB was evaluated in three environments
+
+Empirical multivariate best linear unbiased estimators (E-MBLUEs) were
+obtained for fixed effects 
+and E-MBLUPs for random effects from the above
+model.
+
+Functions of variance components, including heritabilities and genetic
+correlations as well as their SEs, were calculated using "ASReml" v. 2 (ref. 44,
+pp.170–174). 
+--Heritabilities-- were estimated on a line mean basis as described
+by Holland et al. (45).
+
+
+Better estimates (those with smaller variances and with known distributional
+properties) can be obtained using maximum likelihood methods,
+specifically, restricted maximum likelihood (REML). When data are
+completely balanced and there are no negative estimates of variance
+components under the ANOVA method, the ANOVA and REML variance
+component estimates are identical (Shaw 1987). When there are
+missing data, resulting in an unbalanced data structure, however, REML
+estimates of variance components are more desirable because they are
+consistent estimators, asymptotically normally distributed, and their
+asymptotic sampling dispersion matrix is known (Shaw 1987; Searle et
+al. 1992; Dieters et al. 1995). Modern computers and software have made
+REML-based estimates of variance components relatively easy to obtain.
+For example, GENSTAT and PROC MIXED of SAS provide robust and
+convenient methods for conducting REML analysis of many types of
+mixed model designs (Littell et al. 1996; Payne and Arnold 1998; SAS
+Institute Inc. 1999).
